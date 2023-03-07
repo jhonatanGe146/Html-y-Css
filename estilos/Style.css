@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color_white: #fff;
+    --color_black: #333333;
+    --color_green: #5eb319;
+    --color_gray: #707070;
+    
+}
+
+body {
+    width: 100%;
+    height: 100px;
+    background-color:var(--color_white);
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: var(--color_gray);
+    margin: auto;
+    
+    
+        
+}
+section {
+    width: 60%;
+    height: 900px;
+    background-color: var(--color_gray);
+    margin: auto;
+    margin: 2px;
+    margin-left: 380px;
+}
+
+
+
+section .Info_hab {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_green);
+    
+}
+       
